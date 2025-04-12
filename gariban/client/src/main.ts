@@ -5,7 +5,7 @@ import { MatchmakingScene } from './scenes/MatchmakingScene'
 import { GameScene } from './scenes/GameScene'
 
 // Socket.io bağlantısı
-const socket = io('http://localhost:3000')
+const socket = io('/')
 
 // Oyun konfigürasyonu
 const config = {
